@@ -1,0 +1,6 @@
+# Ignore the node_module directory
+node_modules/
+
+# ignore all tally xml files
+ tlymas.xml
+ tlydata.xml
