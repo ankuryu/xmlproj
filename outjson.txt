@@ -1,0 +1,242 @@
+{
+  "root": {
+    "TALLYMESSAGE": [
+      {
+        "$": {
+          "xmlns:UDF": "TallyUDF"
+        },
+        "VOUCHER": [
+          {
+            "$": {
+              "REMOTEID": "5ac20ae0-d3f7-11da-ae64-000d88457808-0000dc98",
+              "VCHTYPE": "Purchase",
+              "ACTION": "Create"
+            },
+            "DATE": [
+              "20220616"
+            ],
+            "GUID": [
+              "5ac20ae0-d3f7-11da-ae64-000d88457808-0000dc98"
+            ],
+            "NARRATION": [
+              "HSN 848180  Qty 5 RCC 11223 dtd 16Jun22  Pvt Mrk  81/3 Cases 3  Wt 390 kg  LVL Bno 000954 dtd 31May22 Rs 569719/= CD 4828/="
+            ],
+            "VOUCHERTYPENAME": [
+              "Purchase"
+            ],
+            "VOUCHERNUMBER": [
+              "2022000954"
+            ],
+            "REFERENCE": [
+              "000954/31May22"
+            ],
+            "PARTYLEDGERNAME": [
+              "LEADER VALVES LTD. <P>"
+            ],
+            "CSTFORMISSUETYPE": [
+              ""
+            ],
+            "CSTFORMRECVTYPE": [
+              ""
+            ],
+            "FBTPAYMENTTYPE": [
+              "Default"
+            ],
+            "VCHGSTCLASS": [
+              ""
+            ],
+            "DIFFACTUALQTY": [
+              "No"
+            ],
+            "AUDITED": [
+              "No"
+            ],
+            "FORJOBCOSTING": [
+              "No"
+            ],
+            "ISOPTIONAL": [
+              "No"
+            ],
+            "EFFECTIVEDATE": [
+              "20220616"
+            ],
+            "USEFORINTEREST": [
+              "No"
+            ],
+            "USEFORGAINLOSS": [
+              "No"
+            ],
+            "USEFORGODOWNTRANSFER": [
+              "No"
+            ],
+            "USEFORCOMPOUND": [
+              "No"
+            ],
+            "ALTERID": [
+              " 103094"
+            ],
+            "EXCISEOPENING": [
+              "No"
+            ],
+            "ISCANCELLED": [
+              "No"
+            ],
+            "HASCASHFLOW": [
+              "No"
+            ],
+            "ISPOSTDATED": [
+              "No"
+            ],
+            "USETRACKINGNUMBER": [
+              "No"
+            ],
+            "ISINVOICE": [
+              "No"
+            ],
+            "MFGJOURNAL": [
+              "No"
+            ],
+            "HASDISCOUNTS": [
+              "No"
+            ],
+            "ASPAYSLIP": [
+              "No"
+            ],
+            "ISDELETED": [
+              "No"
+            ],
+            "ASORIGINAL": [
+              "No"
+            ],
+            "ALLLEDGERENTRIES.LIST": [
+              {
+                "LEDGERNAME": [
+                  "LEADER VALVES LTD. <P>"
+                ],
+                "GSTCLASS": [
+                  ""
+                ],
+                "ISDEEMEDPOSITIVE": [
+                  "No"
+                ],
+                "LEDGERFROMITEM": [
+                  "No"
+                ],
+                "REMOVEZEROENTRIES": [
+                  "No"
+                ],
+                "ISPARTYLEDGER": [
+                  "Yes"
+                ],
+                "AMOUNT": [
+                  "569719.00"
+                ],
+                "BILLALLOCATIONS.LIST": [
+                  {
+                    "NAME": [
+                      "000954/31May22"
+                    ],
+                    "BILLCREDITPERIOD": [
+                      "30 Days"
+                    ],
+                    "BILLTYPE": [
+                      "New Ref"
+                    ],
+                    "AMOUNT": [
+                      "569719.00"
+                    ]
+                  }
+                ]
+              },
+              {
+                "LEDGERNAME": [
+                  "[71] OMS Purch 18% GST"
+                ],
+                "GSTCLASS": [
+                  ""
+                ],
+                "ISDEEMEDPOSITIVE": [
+                  "Yes"
+                ],
+                "LEDGERFROMITEM": [
+                  "No"
+                ],
+                "REMOVEZEROENTRIES": [
+                  "No"
+                ],
+                "ISPARTYLEDGER": [
+                  "No"
+                ],
+                "AMOUNT": [
+                  "-482812.80"
+                ]
+              },
+              {
+                "LEDGERNAME": [
+                  "[72] 18% IGST INPUT TAX"
+                ],
+                "GSTCLASS": [
+                  ""
+                ],
+                "ISDEEMEDPOSITIVE": [
+                  "Yes"
+                ],
+                "LEDGERFROMITEM": [
+                  "No"
+                ],
+                "REMOVEZEROENTRIES": [
+                  "No"
+                ],
+                "ISPARTYLEDGER": [
+                  "No"
+                ],
+                "AMOUNT": [
+                  "-86906.30"
+                ]
+              },
+              {
+                "LEDGERNAME": [
+                  "VATAV (PURC)"
+                ],
+                "GSTCLASS": [
+                  ""
+                ],
+                "ISDEEMEDPOSITIVE": [
+                  "No"
+                ],
+                "LEDGERFROMITEM": [
+                  "No"
+                ],
+                "REMOVEZEROENTRIES": [
+                  "No"
+                ],
+                "ISPARTYLEDGER": [
+                  "No"
+                ],
+                "AMOUNT": [
+                  "0.10"
+                ]
+              }
+            ],
+            "UDF:REFERENCEDATE.LIST": [
+              {
+                "$": {
+                  "DESC": "`REFERENCEDATE`",
+                  "ISLIST": "YES"
+                },
+                "UDF:REFERENCEDATE": [
+                  {
+                    "_": "20220616",
+                    "$": {
+                      "DESC": "`REFERENCEDATE`"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

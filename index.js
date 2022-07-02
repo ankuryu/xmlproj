@@ -2,21 +2,31 @@ var fs = require('fs'),
     xml2js = require('xml2js');
 
 var parser = new xml2js.Parser();
-fs.readFile(__dirname + '/foo.xml', function(err, data) {
+fs.readFile(__dirname + '/trial.xml', function(err, data) {
     parser.parseString(data, function (err, result) {
-        console.dir(result.ROOT.TALLYMESSAGE[0].LEDGER[0]["NAME.LIST"]);
-        console.dir(result.ROOT.TALLYMESSAGE[0].LEDGER[0]["NAME.LIST"].length);
-
+       // console.dir(result.ENVELOPE);
+//        console.dir(result.ROOT.TALLYMESSAGE[0].LEDGER[0]["NAME.LIST"].length);
+      if(err){
+        console.log(err)
+      }else{
         console.log('Done');
-      console.dir(result)
-      let tlymsg = result.ROOT.TALLYMESSAGE[0]['LEDGER'][0]
-      
-      console.dir(typeof( tlymsg ))
-      if ( typeof(tlymsg) == 'object' ){
-        console.log('keys',Object.keys(tlymsg))
-        console.log('val',Object.values(tlymsg))
+      console.dir(result.root.TALLYMESSAGE[0].VOUCHER[0].DATE)
+      console.dir(result.root.TALLYMESSAGE[0].VOUCHER[0][ '$' ].VCHTYPE)
+      console.dir(result.root.TALLYMESSAGE[0].VOUCHER[0].NARRATION)
+      console.dir(result.root.TALLYMESSAGE[0].VOUCHER[0]['ALLLEDGERENTRIES.LIST'][0])
+      console.dir(result.root.TALLYMESSAGE[0].VOUCHER[0]['ALLLEDGERENTRIES.LIST'][0]['BILLALLOCATIONS.LIST'])
+
+      console.dir(JSON.stringify(result))
+        fs.writeFile('outjson.txt',JSON.stringify( result,null,'  ' ),(err)=>{
+          if(err){
+            console.log(err)
+          }else{
+            console.log("File writtten")
+          }
+        })
+
       }
-      console.log(typeof(tlymsg['PARENT']))
-      console.log(tlymsg['PARENT'])
+//      let tlymsg = result.ROOT.TALLYMESSAGE[0]['LEDGER'][0]
+      
     });
 });
