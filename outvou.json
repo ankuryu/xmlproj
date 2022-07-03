@@ -1,0 +1,878 @@
+{
+  "ENVELOPE": {
+    "HEADER": [
+      {
+        "TALLYREQUEST": [
+          "Import Data"
+        ]
+      }
+    ],
+    "BODY": [
+      {
+        "IMPORTDATA": [
+          {
+            "REQUESTDESC": [
+              {
+                "REPORTNAME": [
+                  "All Masters"
+                ],
+                "STATICVARIABLES": [
+                  {
+                    "SVCURRENTCOMPANY": [
+                      "PMC 19-20"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "REQUESTDATA": [
+              {
+                "TALLYMESSAGE": [
+                  {
+                    "$": {
+                      "xmlns:UDF": "TallyUDF"
+                    },
+                    "VOUCHER": [
+                      {
+                        "$": {
+                          "REMOTEID": "5ac20ae0-d3f7-11da-ae64-000d88457808-0000dc98",
+                          "VCHTYPE": "Purchase",
+                          "ACTION": "Create"
+                        },
+                        "DATE": [
+                          "20220616"
+                        ],
+                        "GUID": [
+                          "5ac20ae0-d3f7-11da-ae64-000d88457808-0000dc98"
+                        ],
+                        "NARRATION": [
+                          "HSN 848180  Qty 5 RCC 11223 dtd 16Jun22  Pvt Mrk  81/3 Cases 3  Wt 390 kg  LVL Bno 000954 dtd 31May22 Rs 569719/= CD 4828/="
+                        ],
+                        "VOUCHERTYPENAME": [
+                          "Purchase"
+                        ],
+                        "VOUCHERNUMBER": [
+                          "2022000954"
+                        ],
+                        "REFERENCE": [
+                          "000954/31May22"
+                        ],
+                        "PARTYLEDGERNAME": [
+                          "LEADER VALVES LTD. <P>"
+                        ],
+                        "CSTFORMISSUETYPE": [
+                          ""
+                        ],
+                        "CSTFORMRECVTYPE": [
+                          ""
+                        ],
+                        "FBTPAYMENTTYPE": [
+                          "Default"
+                        ],
+                        "VCHGSTCLASS": [
+                          ""
+                        ],
+                        "DIFFACTUALQTY": [
+                          "No"
+                        ],
+                        "AUDITED": [
+                          "No"
+                        ],
+                        "FORJOBCOSTING": [
+                          "No"
+                        ],
+                        "ISOPTIONAL": [
+                          "No"
+                        ],
+                        "EFFECTIVEDATE": [
+                          "20220616"
+                        ],
+                        "USEFORINTEREST": [
+                          "No"
+                        ],
+                        "USEFORGAINLOSS": [
+                          "No"
+                        ],
+                        "USEFORGODOWNTRANSFER": [
+                          "No"
+                        ],
+                        "USEFORCOMPOUND": [
+                          "No"
+                        ],
+                        "ALTERID": [
+                          " 103094"
+                        ],
+                        "EXCISEOPENING": [
+                          "No"
+                        ],
+                        "ISCANCELLED": [
+                          "No"
+                        ],
+                        "HASCASHFLOW": [
+                          "No"
+                        ],
+                        "ISPOSTDATED": [
+                          "No"
+                        ],
+                        "USETRACKINGNUMBER": [
+                          "No"
+                        ],
+                        "ISINVOICE": [
+                          "No"
+                        ],
+                        "MFGJOURNAL": [
+                          "No"
+                        ],
+                        "HASDISCOUNTS": [
+                          "No"
+                        ],
+                        "ASPAYSLIP": [
+                          "No"
+                        ],
+                        "ISDELETED": [
+                          "No"
+                        ],
+                        "ASORIGINAL": [
+                          "No"
+                        ],
+                        "ALLLEDGERENTRIES.LIST": [
+                          {
+                            "LEDGERNAME": [
+                              "LEADER VALVES LTD. <P>"
+                            ],
+                            "GSTCLASS": [
+                              ""
+                            ],
+                            "ISDEEMEDPOSITIVE": [
+                              "No"
+                            ],
+                            "LEDGERFROMITEM": [
+                              "No"
+                            ],
+                            "REMOVEZEROENTRIES": [
+                              "No"
+                            ],
+                            "ISPARTYLEDGER": [
+                              "Yes"
+                            ],
+                            "AMOUNT": [
+                              "569719.00"
+                            ],
+                            "BILLALLOCATIONS.LIST": [
+                              {
+                                "NAME": [
+                                  "000954/31May22"
+                                ],
+                                "BILLCREDITPERIOD": [
+                                  "30 Days"
+                                ],
+                                "BILLTYPE": [
+                                  "New Ref"
+                                ],
+                                "AMOUNT": [
+                                  "569719.00"
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "LEDGERNAME": [
+                              "[71] OMS Purch 18% GST"
+                            ],
+                            "GSTCLASS": [
+                              ""
+                            ],
+                            "ISDEEMEDPOSITIVE": [
+                              "Yes"
+                            ],
+                            "LEDGERFROMITEM": [
+                              "No"
+                            ],
+                            "REMOVEZEROENTRIES": [
+                              "No"
+                            ],
+                            "ISPARTYLEDGER": [
+                              "No"
+                            ],
+                            "AMOUNT": [
+                              "-482812.80"
+                            ]
+                          },
+                          {
+                            "LEDGERNAME": [
+                              "[72] 18% IGST INPUT TAX"
+                            ],
+                            "GSTCLASS": [
+                              ""
+                            ],
+                            "ISDEEMEDPOSITIVE": [
+                              "Yes"
+                            ],
+                            "LEDGERFROMITEM": [
+                              "No"
+                            ],
+                            "REMOVEZEROENTRIES": [
+                              "No"
+                            ],
+                            "ISPARTYLEDGER": [
+                              "No"
+                            ],
+                            "AMOUNT": [
+                              "-86906.30"
+                            ]
+                          },
+                          {
+                            "LEDGERNAME": [
+                              "VATAV (PURC)"
+                            ],
+                            "GSTCLASS": [
+                              ""
+                            ],
+                            "ISDEEMEDPOSITIVE": [
+                              "No"
+                            ],
+                            "LEDGERFROMITEM": [
+                              "No"
+                            ],
+                            "REMOVEZEROENTRIES": [
+                              "No"
+                            ],
+                            "ISPARTYLEDGER": [
+                              "No"
+                            ],
+                            "AMOUNT": [
+                              "0.10"
+                            ]
+                          }
+                        ],
+                        "UDF:REFERENCEDATE.LIST": [
+                          {
+                            "$": {
+                              "DESC": "`REFERENCEDATE`",
+                              "ISLIST": "YES"
+                            },
+                            "UDF:REFERENCEDATE": [
+                              {
+                                "_": "20220616",
+                                "$": {
+                                  "DESC": "`REFERENCEDATE`"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "$": {
+                      "xmlns:UDF": "TallyUDF"
+                    },
+                    "VOUCHER": [
+                      {
+                        "$": {
+                          "REMOTEID": "5ac20ae0-d3f7-11da-ae64-000d88457808-0000dcaa",
+                          "VCHTYPE": "Sales",
+                          "ACTION": "Create"
+                        },
+                        "DATE": [
+                          "20220616"
+                        ],
+                        "GUID": [
+                          "5ac20ae0-d3f7-11da-ae64-000d88457808-0000dcaa"
+                        ],
+                        "NARRATION": [
+                          "Auto on 27/06/2022 Party : ZENITH INDL.RUBBER PRODUCTS."
+                        ],
+                        "VOUCHERTYPENAME": [
+                          "Sales"
+                        ],
+                        "VOUCHERNUMBER": [
+                          "028058"
+                        ],
+                        "PARTYLEDGERNAME": [
+                          "ZENITH INDL.RUBBER PRODUCTS."
+                        ],
+                        "CSTFORMISSUETYPE": [
+                          ""
+                        ],
+                        "CSTFORMRECVTYPE": [
+                          ""
+                        ],
+                        "FBTPAYMENTTYPE": [
+                          "Default"
+                        ],
+                        "DIFFACTUALQTY": [
+                          "No"
+                        ],
+                        "AUDITED": [
+                          "No"
+                        ],
+                        "FORJOBCOSTING": [
+                          "No"
+                        ],
+                        "ISOPTIONAL": [
+                          "No"
+                        ],
+                        "EFFECTIVEDATE": [
+                          "20220616"
+                        ],
+                        "USEFORINTEREST": [
+                          "No"
+                        ],
+                        "USEFORGAINLOSS": [
+                          "No"
+                        ],
+                        "USEFORGODOWNTRANSFER": [
+                          "No"
+                        ],
+                        "USEFORCOMPOUND": [
+                          "No"
+                        ],
+                        "ALTERID": [
+                          " 103112"
+                        ],
+                        "EXCISEOPENING": [
+                          "No"
+                        ],
+                        "ISCANCELLED": [
+                          "No"
+                        ],
+                        "HASCASHFLOW": [
+                          "No"
+                        ],
+                        "ISPOSTDATED": [
+                          "No"
+                        ],
+                        "USETRACKINGNUMBER": [
+                          "No"
+                        ],
+                        "ISINVOICE": [
+                          "No"
+                        ],
+                        "MFGJOURNAL": [
+                          "No"
+                        ],
+                        "HASDISCOUNTS": [
+                          "No"
+                        ],
+                        "ASPAYSLIP": [
+                          "No"
+                        ],
+                        "ISDELETED": [
+                          "No"
+                        ],
+                        "ASORIGINAL": [
+                          "No"
+                        ],
+                        "ALLLEDGERENTRIES.LIST": [
+                          {
+                            "LEDGERNAME": [
+                              "ZENITH INDL.RUBBER PRODUCTS."
+                            ],
+                            "GSTCLASS": [
+                              ""
+                            ],
+                            "ISDEEMEDPOSITIVE": [
+                              "Yes"
+                            ],
+                            "LEDGERFROMITEM": [
+                              "No"
+                            ],
+                            "REMOVEZEROENTRIES": [
+                              "No"
+                            ],
+                            "ISPARTYLEDGER": [
+                              "Yes"
+                            ],
+                            "AMOUNT": [
+                              "-22834.00"
+                            ],
+                            "BILLALLOCATIONS.LIST": [
+                              {
+                                "NAME": [
+                                  "028058"
+                                ],
+                                "BILLTYPE": [
+                                  "New Ref"
+                                ],
+                                "AMOUNT": [
+                                  "-22834.00"
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "LEDGERNAME": [
+                              "[01] Local Sales 18% GST"
+                            ],
+                            "GSTCLASS": [
+                              ""
+                            ],
+                            "ISDEEMEDPOSITIVE": [
+                              "No"
+                            ],
+                            "LEDGERFROMITEM": [
+                              "No"
+                            ],
+                            "REMOVEZEROENTRIES": [
+                              "No"
+                            ],
+                            "ISPARTYLEDGER": [
+                              "No"
+                            ],
+                            "AMOUNT": [
+                              "19350.40"
+                            ]
+                          },
+                          {
+                            "LEDGERNAME": [
+                              "[02] 9% CGST Output"
+                            ],
+                            "GSTCLASS": [
+                              ""
+                            ],
+                            "ISDEEMEDPOSITIVE": [
+                              "No"
+                            ],
+                            "LEDGERFROMITEM": [
+                              "No"
+                            ],
+                            "REMOVEZEROENTRIES": [
+                              "No"
+                            ],
+                            "ISPARTYLEDGER": [
+                              "No"
+                            ],
+                            "AMOUNT": [
+                              "1742.00"
+                            ]
+                          },
+                          {
+                            "LEDGERNAME": [
+                              "[03] 9% SGST Output"
+                            ],
+                            "GSTCLASS": [
+                              ""
+                            ],
+                            "ISDEEMEDPOSITIVE": [
+                              "No"
+                            ],
+                            "LEDGERFROMITEM": [
+                              "No"
+                            ],
+                            "REMOVEZEROENTRIES": [
+                              "No"
+                            ],
+                            "ISPARTYLEDGER": [
+                              "No"
+                            ],
+                            "AMOUNT": [
+                              "1742.00"
+                            ]
+                          },
+                          {
+                            "LEDGERNAME": [
+                              "VATAV KASAR"
+                            ],
+                            "GSTCLASS": [
+                              ""
+                            ],
+                            "ISDEEMEDPOSITIVE": [
+                              "No"
+                            ],
+                            "LEDGERFROMITEM": [
+                              "No"
+                            ],
+                            "REMOVEZEROENTRIES": [
+                              "No"
+                            ],
+                            "ISPARTYLEDGER": [
+                              "No"
+                            ],
+                            "AMOUNT": [
+                              "-0.40"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "$": {
+                      "xmlns:UDF": "TallyUDF"
+                    },
+                    "VOUCHER": [
+                      {
+                        "$": {
+                          "REMOTEID": "5ac20ae0-d3f7-11da-ae64-000d88457808-0000dcab",
+                          "VCHTYPE": "Sales",
+                          "ACTION": "Create"
+                        },
+                        "DATE": [
+                          "20220616"
+                        ],
+                        "GUID": [
+                          "5ac20ae0-d3f7-11da-ae64-000d88457808-0000dcab"
+                        ],
+                        "NARRATION": [
+                          "Auto on 27/06/2022 Party : EXTINCT FIRE ENGINEERS P.LTD."
+                        ],
+                        "VOUCHERTYPENAME": [
+                          "Sales"
+                        ],
+                        "VOUCHERNUMBER": [
+                          "028059"
+                        ],
+                        "PARTYLEDGERNAME": [
+                          "EXTINCT FIRE ENGINEERS P.LTD."
+                        ],
+                        "CSTFORMISSUETYPE": [
+                          ""
+                        ],
+                        "CSTFORMRECVTYPE": [
+                          ""
+                        ],
+                        "FBTPAYMENTTYPE": [
+                          "Default"
+                        ],
+                        "DIFFACTUALQTY": [
+                          "No"
+                        ],
+                        "AUDITED": [
+                          "No"
+                        ],
+                        "FORJOBCOSTING": [
+                          "No"
+                        ],
+                        "ISOPTIONAL": [
+                          "No"
+                        ],
+                        "EFFECTIVEDATE": [
+                          "20220616"
+                        ],
+                        "USEFORINTEREST": [
+                          "No"
+                        ],
+                        "USEFORGAINLOSS": [
+                          "No"
+                        ],
+                        "USEFORGODOWNTRANSFER": [
+                          "No"
+                        ],
+                        "USEFORCOMPOUND": [
+                          "No"
+                        ],
+                        "ALTERID": [
+                          " 103113"
+                        ],
+                        "EXCISEOPENING": [
+                          "No"
+                        ],
+                        "ISCANCELLED": [
+                          "No"
+                        ],
+                        "HASCASHFLOW": [
+                          "No"
+                        ],
+                        "ISPOSTDATED": [
+                          "No"
+                        ],
+                        "USETRACKINGNUMBER": [
+                          "No"
+                        ],
+                        "ISINVOICE": [
+                          "No"
+                        ],
+                        "MFGJOURNAL": [
+                          "No"
+                        ],
+                        "HASDISCOUNTS": [
+                          "No"
+                        ],
+                        "ASPAYSLIP": [
+                          "No"
+                        ],
+                        "ISDELETED": [
+                          "No"
+                        ],
+                        "ASORIGINAL": [
+                          "No"
+                        ],
+                        "ALLLEDGERENTRIES.LIST": [
+                          {
+                            "LEDGERNAME": [
+                              "EXTINCT FIRE ENGINEERS P.LTD."
+                            ],
+                            "GSTCLASS": [
+                              ""
+                            ],
+                            "ISDEEMEDPOSITIVE": [
+                              "Yes"
+                            ],
+                            "LEDGERFROMITEM": [
+                              "No"
+                            ],
+                            "REMOVEZEROENTRIES": [
+                              "No"
+                            ],
+                            "ISPARTYLEDGER": [
+                              "Yes"
+                            ],
+                            "AMOUNT": [
+                              "-33724.00"
+                            ],
+                            "BILLALLOCATIONS.LIST": [
+                              {
+                                "NAME": [
+                                  "028059"
+                                ],
+                                "BILLTYPE": [
+                                  "New Ref"
+                                ],
+                                "AMOUNT": [
+                                  "-33724.00"
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "LEDGERNAME": [
+                              "[01] Local Sales 18% GST"
+                            ],
+                            "GSTCLASS": [
+                              ""
+                            ],
+                            "ISDEEMEDPOSITIVE": [
+                              "No"
+                            ],
+                            "LEDGERFROMITEM": [
+                              "No"
+                            ],
+                            "REMOVEZEROENTRIES": [
+                              "No"
+                            ],
+                            "ISPARTYLEDGER": [
+                              "No"
+                            ],
+                            "AMOUNT": [
+                              "28580.00"
+                            ]
+                          },
+                          {
+                            "LEDGERNAME": [
+                              "[02] 9% CGST Output"
+                            ],
+                            "GSTCLASS": [
+                              ""
+                            ],
+                            "ISDEEMEDPOSITIVE": [
+                              "No"
+                            ],
+                            "LEDGERFROMITEM": [
+                              "No"
+                            ],
+                            "REMOVEZEROENTRIES": [
+                              "No"
+                            ],
+                            "ISPARTYLEDGER": [
+                              "No"
+                            ],
+                            "AMOUNT": [
+                              "2572.00"
+                            ]
+                          },
+                          {
+                            "LEDGERNAME": [
+                              "[03] 9% SGST Output"
+                            ],
+                            "GSTCLASS": [
+                              ""
+                            ],
+                            "ISDEEMEDPOSITIVE": [
+                              "No"
+                            ],
+                            "LEDGERFROMITEM": [
+                              "No"
+                            ],
+                            "REMOVEZEROENTRIES": [
+                              "No"
+                            ],
+                            "ISPARTYLEDGER": [
+                              "No"
+                            ],
+                            "AMOUNT": [
+                              "2572.00"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "$": {
+                      "xmlns:UDF": "TallyUDF"
+                    },
+                    "VOUCHER": [
+                      {
+                        "$": {
+                          "REMOTEID": "5ac20ae0-d3f7-11da-ae64-000d88457808-0000dcdb",
+                          "VCHTYPE": "Receipt",
+                          "ACTION": "Create"
+                        },
+                        "DATE": [
+                          "20220616"
+                        ],
+                        "GUID": [
+                          "5ac20ae0-d3f7-11da-ae64-000d88457808-0000dcdb"
+                        ],
+                        "NARRATION": [
+                          "Auto on 29-06-2022 HDFC Bank  Cheq # 002266 dtd 15Jun22 Rs 2088 from AMIT SALES CORP.(PARSIWADA). agst Invoice # 028055 Vou no 600125 from AMIT SALES CORP.(PARSIWADA). CHEQ into bank AMCOFD02"
+                        ],
+                        "VOUCHERTYPENAME": [
+                          "Receipt"
+                        ],
+                        "VOUCHERNUMBER": [
+                          "PM/600125"
+                        ],
+                        "REFERENCE": [
+                          "600125"
+                        ],
+                        "PARTYLEDGERNAME": [
+                          "AMIT SALES CORP.(PARSIWADA)."
+                        ],
+                        "CSTFORMISSUETYPE": [
+                          ""
+                        ],
+                        "CSTFORMRECVTYPE": [
+                          ""
+                        ],
+                        "FBTPAYMENTTYPE": [
+                          "Default"
+                        ],
+                        "VCHGSTCLASS": [
+                          ""
+                        ],
+                        "DIFFACTUALQTY": [
+                          "No"
+                        ],
+                        "AUDITED": [
+                          "No"
+                        ],
+                        "FORJOBCOSTING": [
+                          "No"
+                        ],
+                        "ISOPTIONAL": [
+                          "No"
+                        ],
+                        "EFFECTIVEDATE": [
+                          "20220616"
+                        ],
+                        "USEFORINTEREST": [
+                          "No"
+                        ],
+                        "USEFORGAINLOSS": [
+                          "No"
+                        ],
+                        "USEFORGODOWNTRANSFER": [
+                          "No"
+                        ],
+                        "USEFORCOMPOUND": [
+                          "No"
+                        ],
+                        "ALTERID": [
+                          " 103167"
+                        ],
+                        "EXCISEOPENING": [
+                          "No"
+                        ],
+                        "ISCANCELLED": [
+                          "No"
+                        ],
+                        "HASCASHFLOW": [
+                          "Yes"
+                        ],
+                        "ISPOSTDATED": [
+                          "No"
+                        ],
+                        "USETRACKINGNUMBER": [
+                          "No"
+                        ],
+                        "ISINVOICE": [
+                          "No"
+                        ],
+                        "MFGJOURNAL": [
+                          "No"
+                        ],
+                        "HASDISCOUNTS": [
+                          "No"
+                        ],
+                        "ASPAYSLIP": [
+                          "No"
+                        ],
+                        "ISDELETED": [
+                          "No"
+                        ],
+                        "ASORIGINAL": [
+                          "Yes"
+                        ],
+                        "ALLLEDGERENTRIES.LIST": [
+                          {
+                            "LEDGERNAME": [
+                              "AMIT SALES CORP.(PARSIWADA)."
+                            ],
+                            "GSTCLASS": [
+                              ""
+                            ],
+                            "ISDEEMEDPOSITIVE": [
+                              "No"
+                            ],
+                            "LEDGERFROMITEM": [
+                              "No"
+                            ],
+                            "REMOVEZEROENTRIES": [
+                              "No"
+                            ],
+                            "ISPARTYLEDGER": [
+                              "Yes"
+                            ],
+                            "AMOUNT": [
+                              "2088.00"
+                            ]
+                          },
+                          {
+                            "LEDGERNAME": [
+                              "AMCO BANK F/D.O/D 30511.[17.75)"
+                            ],
+                            "GSTCLASS": [
+                              ""
+                            ],
+                            "ISDEEMEDPOSITIVE": [
+                              "Yes"
+                            ],
+                            "LEDGERFROMITEM": [
+                              "No"
+                            ],
+                            "REMOVEZEROENTRIES": [
+                              "No"
+                            ],
+                            "ISPARTYLEDGER": [
+                              "Yes"
+                            ],
+                            "AMOUNT": [
+                              "-2088.00"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
